@@ -4,10 +4,11 @@
  <p>{{ $t('forms.home.txt_main_txt') }}</p>
  <img class="round-animation" src="../img/round-animation.png">
 </div>
-<div class="animation-css">
+<section class="animation-first-linear"><div class="animation-css">
 <h2>{{ $t('forms.home.txt_markue_first' )}}</h2>
 <p>{{ $t('forms.home.txt_markue_second' )}}</p>
 </div>
+</section>
 <section class="services">
     <h1>{{ $t('forms.home.txt_services_h1') }}</h1>
     <a href="/sites"><div style="display: flex; flex-direction: column;">
@@ -292,7 +293,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .main-page {
     background-image: url('../img/1.png');
     background-size: cover;
@@ -372,13 +373,17 @@ export default {
         padding: 0px 10% 0px 10%;
     }
 }
-.animation-css {
-    width: 120%;
+.animation-first-linear {
+    margin: -100px -40px 40px -20px;
+    width: 150%;
+    background: #f4c9abe5;
+    transform: rotate(-5deg);
+}
+.animation-first-linear .animation-css {
+    width: 100%;
     margin: 40px auto;
     height: 140px;
     font-family: "Raleway", sans-serif;
-    background: #FDFCF8;
-   
     animation: moveText 30s linear infinite;
     z-index: 0;
     @media(max-width: 900px) {
@@ -405,13 +410,13 @@ export default {
         text-align: center;
         font-size: 90px;
         color: #EE6300;
-        opacity: 0.2;
+        /* opacity: 0.2; */
         font-weight: 600;
     }
 
 
     .animation-css p {
-     color: #EE6300;
+     color: #333333;
      margin-top: -50px;
      /* margin-left: 140px; */
      font-size: 24px;
