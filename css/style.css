@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Borel&family=Funnel+Display:wght@300..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Borel&family=Funnel+Display:wght@300..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pangolin&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Square+Peg&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FDFCF8;
+}
